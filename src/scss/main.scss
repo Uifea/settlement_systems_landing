@@ -563,10 +563,16 @@ body {
 }
 
 .card {
+    border-bottom: 1px solid #00468533;
+
+    &__title {
+        display: none;
+    }
+
     .wrapper {
         margin: 0;
     }
-    border-bottom: 1px solid #00468533;
+    
 
     p {
         font-size: 14px;
@@ -789,7 +795,16 @@ body {
 
         }
 
+        &__title {
+            display: unset;
+        }
 
+
+    }
+
+    .card__wrapper {
+        width: 300px;
+        @include text(16px, 24px)
     }
 
     .card__title {
@@ -830,6 +845,11 @@ body {
 @media (min-width: 950px) {
     .wrapper {
         width: 850px;
+    }
+
+    .card__wrapper {
+        width: 450px;
+        @include text(16px, 24px)
     }
 }
 

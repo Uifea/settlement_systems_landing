@@ -27,7 +27,7 @@ function move(){
             bodyCard.classList.add('hide');
             item.classList.add('dropdown');
         });
-        title.textContent = 'С нами работают';
+        title.textContent = 'Узнайте, как оплатить';
         copyright.innerHTML = `© 2012 – 2020 ООО «Название компании»`
 	}
 }

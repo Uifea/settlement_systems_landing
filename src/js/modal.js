@@ -28,7 +28,6 @@ document.addEventListener("keydown", (e) => {
 })
 //Закрыть попап через мышку
 document.addEventListener('click', (e) => {
-    e.preventDefault();
     if (e.target === modal) {
         toggleModal();
     }

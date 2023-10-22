@@ -22,7 +22,6 @@ btnPopup.addEventListener('click', () => {
 
 
 document.addEventListener('click', (e) => {
-    e.preventDefault();
     if (e.target !== popup && e.target !== btnPopup) {
         popup.classList.add('hide');
     }

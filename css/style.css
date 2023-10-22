@@ -667,6 +667,10 @@ body {
     border-bottom: 1px solid rgba(0, 70, 133, 0.2);
 }
 
+.card__title {
+    display: none;
+}
+
 .card .wrapper {
     margin: 0;
 }
@@ -903,6 +907,17 @@ body {
     }
 
     .card__title {
+        display: unset;
+    }
+
+    .card__wrapper {
+        width: 300px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .card__title {
         background-image: none;
     }
 
@@ -950,6 +965,13 @@ body {
 @media (min-width: 950px) {
     .wrapper {
         width: 850px;
+    }
+
+    .card__wrapper {
+        width: 450px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
     }
 }
 
